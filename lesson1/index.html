@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    
+    <script src="temperature.js"></script>
+    <script>
+        //Объявить две переменные: admin и name. Записать в name строку "Василий"; Скопировать значение из name в admin. Вывести admin (должно вывести «Василий»).
+        var admin, name = null;
+        name = "Василий";
+        admin = name;
+        alert(admin);
+    </script>
     <title>Home work JS1</title>
 </head>
+
 <body>
-    
+    <p>4. *Чему будет равно JS-выражение 1000 + "108"?</p>
+    <p>Ответ: <b>"1000108"</b></p>
+    <p>5. *Самостоятельно разобраться с атрибутами тега script (async и defer)</p>
+    <p>Ответ:<br>
+    <b>Атрибут defer откладывает выполнение скрипта до тех пор, пока вся страница не будет загружена полностью. <!--Использование: <script defer>--><br> 
+    Конструкция async/await используется для решения асинхронных задач и не блокирует главный поток.</b>
+    </p>
 </body>
+
 </html>
